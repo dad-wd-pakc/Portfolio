@@ -6,6 +6,18 @@
 @import 'base';
 
 
+html {
+overflow-y:scroll;
+width:100%;
+}
+
+body {
+background:$master-secondary-color;
+color:$master-primary-color;
+font-family:'Quicksand', Gil Sans, arial, helvetica, sans-serif;
+font-size:62.5%;
+}
+
 .generic-box {
 background:red;
 height:300px;
