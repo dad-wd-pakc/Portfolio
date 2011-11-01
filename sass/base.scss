@@ -1,0 +1,11 @@
+$master-font-color:#333333;
+$master-primary-color:#666666;
+$master-secondary-color:#999999;
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+@import "compass/typography/";
+
+@import "bottles/*.png";
+@include all-bottles-sprites;

@@ -1,0 +1,158 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 63, bottles */
+.bottles-sprite, .bottles-largebottleCalvin, .bottles-largebottleKelis, .bottles-largebottlePlanB, .bottles-largebottleTinie, .bottles-largebottleWhiteLies, .bottles-largebottleWretch, .bottles-largebottleYasmin {
+  background: url('/images/bottles-s2c5fded601.png') no-repeat;
+}
+
+/* line 60, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.bottles-largebottleCalvin {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.bottles-largebottleKelis {
+  background-position: 0 -376px;
+}
+
+/* line 60, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.bottles-largebottlePlanB {
+  background-position: 0 -752px;
+}
+
+/* line 60, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.bottles-largebottleTinie {
+  background-position: 0 -1128px;
+}
+
+/* line 60, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.bottles-largebottleWhiteLies {
+  background-position: 0 -1504px;
+}
+
+/* line 60, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.bottles-largebottleWretch {
+  background-position: 0 -1880px;
+}
+
+/* line 60, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.bottles-largebottleYasmin {
+  background-position: 0 -2256px;
+}
+
+/* line 9, ../sass/screen.scss */
+.generic-box {
+  background: red;
+  height: 300px;
+  padding: 20px;
+  width: 300px;
+}
+
+/* line 16, ../sass/screen.scss */
+a {
+  color: blue;
+}
+/* line 18, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:visited {
+  color: brown;
+}
+/* line 21, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:focus {
+  color: black;
+}
+/* line 24, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: gold;
+}
+/* line 27, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:active {
+  color: yellow;
+}
+
+/* line 22, ../sass/screen.scss */
+p a {
+  color: red;
+}
+/* line 18, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+p a:visited {
+  color: orange;
+}
+/* line 21, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+p a:focus {
+  color: pink;
+}
+/* line 24, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+p a:hover {
+  color: black;
+}
+/* line 27, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+p a:active {
+  color: purple;
+}

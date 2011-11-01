@@ -1,0 +1,25 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import 'base';
+
+
+.generic-box {
+background:red;
+height:300px;
+padding:20px;
+width:300px;
+}
+
+a {
+	@include link-colors(blue, gold, yellow, brown, black);
+}
+
+
+p {
+	a {
+		@include link-colors(red, black, purple, orange, pink);
+	}
+}
