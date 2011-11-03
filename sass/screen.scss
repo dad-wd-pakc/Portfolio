@@ -25,6 +25,10 @@ padding:20px;
 width:300px;
 }
 
+.thumbnail {
+border:2px solid rgba(255,255,255,0.5);
+}
+
 a {
 	@include link-colors(blue, gold, yellow, brown, black);
 }
