@@ -5,37 +5,105 @@
 
 @import 'base';
 
-
 html {
 overflow-y:scroll;
 width:100%;
 }
 
 body {
-background:$master-secondary-color;
-color:$master-primary-color;
-font-family:'Quicksand', Gil Sans, arial, helvetica, sans-serif;
-font-size:62.5%;
+background:$primary-background-color;
+color:$primary-font-color;
+font:normal 62.5%/1.5em 'Quicksand', Gil Sans, arial, helvetica, sans-serif;
+text-align:center;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
+blockquote { font-size: 1.2em; }
+p, li { font-size: 1.2em; }
+input { font-size: 1.2em; }
+small, li p { font-size: 1em; }
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote, p, input, small, li { line-height: 1.5em; }
+
+a {
+	@include link-colors(silver, gold, yellow, gray, teal);
+}
+
+p {
+	margin-bottom:1.25em;
+	a {
+		@include link-colors(yellow, turqoise, purple, orange, pink);
+	}
+}
+
+.left {
+display:inline;
+float:left;
+}
+
+.left {
+display:inline;
+float:right;
+}
+
+#mainContainer {
+background:$secondary-background-color;
+margin:36px auto;
+text-align:left;
+width:90%;
+}
+
+#mainContainerInner {
+margin:0 auto;
+padding:50px 0;
+width:93.75%;
+}
+
+#mainHeader {
+	h1 {
+		font-size:2.4em;
+		line-height:1.25em;
+		text-transform:uppercase;
+		
+		a {
+			font-weight:bold;
+		}
+	}
+}
+
+#mainContent {
+
+}
+
+.projects {
+	@include clearfix;
+	h1 {
+		font-size:2em;
+	}
+	
+	h2 {
+		font-size:1.6em;
+	}
+	
+	li {
+		overflow:hidden;
+		width:48.889%;
+	}
 }
 
 .generic-box {
-background:red;
-height:300px;
-padding:20px;
-width:300px;
+
 }
 
 .thumbnail {
-border:2px solid rgba(255,255,255,0.5);
+
 }
 
-a {
-	@include link-colors(blue, gold, yellow, brown, black);
-}
-
-
-p {
-	a {
-		@include link-colors(red, black, purple, orange, pink);
-	}
-}

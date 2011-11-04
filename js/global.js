@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 window.onload = function() {
 	//initialiseBlogPosts();
-	initialiseProjects();
+	//initialiseProjects();
 }
 
 var initialiseBlogPosts = function() {
