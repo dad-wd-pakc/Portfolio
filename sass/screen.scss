@@ -127,6 +127,14 @@ width:8%;
 @include border-radius(4px, 4px);
 }
 
+.content-container section > header {
+background:$primary-background-color;
+color:$primary-font-color;
+font-size:1.5em;
+padding:0.8em 2.2222%; /* 20px / 900px */
+text-transform:uppercase;
+}
+
 .content-container {
 	@extend .pie-clearfix;
 	background:$content-block-background-color;
@@ -138,7 +146,17 @@ width:8%;
 width:62.8888889%; /* 566px / 900px */
 }
 
+.content-primary > article {
+margin:0 auto;
+width:83.038869%; /* 470px / 566px */
+}
+
 .content-secondary {
 @extend .right;
 width:36.7777778%; /* 331px / 900px */
+}
+
+.content-secondary > article {
+margin:0 auto;
+width:69.7885196% /* 231 / 331px  */
 }

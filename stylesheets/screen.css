@@ -321,19 +321,42 @@ p a:active {
 }
 
 /* line 130, ../sass/screen.scss */
+.content-container section > header {
+  background: black;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.8em 2.2222%;
+  /* 20px / 900px */
+  text-transform: uppercase;
+}
+
+/* line 138, ../sass/screen.scss */
 .content-container {
   background: rgba(255, 255, 255, 0.5);
   color: black;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .content-primary {
   width: 62.8888889%;
   /* 566px / 900px */
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
+.content-primary > article {
+  margin: 0 auto;
+  width: 83.038869%;
+  /* 470px / 566px */
+}
+
+/* line 154, ../sass/screen.scss */
 .content-secondary {
   width: 36.7777778%;
   /* 331px / 900px */
+}
+
+/* line 159, ../sass/screen.scss */
+.content-secondary > article {
+  margin: 0 auto;
+  width: 69.789%;
 }
