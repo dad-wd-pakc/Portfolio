@@ -61,7 +61,12 @@ display:inline;
 float:right;
 }
 
-img {
+
+/* Scalable media */
+img,
+embed,
+object,
+video {
 max-width:100%;
 }
 
