@@ -13,7 +13,7 @@ width:100%;
 body {
 background:$primary-background-color url(../images/background-repeat.png) repeat 0 0;
 background:
-url(../images/background-robots.png) repeat-y 0 0,
+/*url(../images/background-robots.png) repeat-y 0 0,*/
 url(../images/background-type.png) repeat-x 0 0,
 url(../images/background-tinie.png) repeat-x 0 0,
 url(../images/background-yasmin.png) repeat 0 0,
@@ -59,6 +59,10 @@ float:left;
 .right {
 display:inline;
 float:right;
+}
+
+img {
+max-width:100%;
 }
 
 .pie-clearfix {
@@ -147,7 +151,9 @@ width:62.8888889%; /* 566px / 900px */
 }
 
 .content-primary > article {
+@extend .pie-clearfix;
 margin:0 auto;
+padding:2em 0;
 width:83.038869%; /* 470px / 566px */
 }
 
@@ -158,5 +164,13 @@ width:36.7777778%; /* 331px / 900px */
 
 .content-secondary > article {
 margin:0 auto;
-width:69.7885196% /* 231 / 331px  */
+padding:2em 0;
+width:69.7885196% /* 231px / 331px  */
+}
+
+.figure {
+float:right;
+margin-bottom:0.5em;
+margin-left:2.55532%; /* 12px / 470px */
+width:48.7341772%; /* 231px / 470px */
 }

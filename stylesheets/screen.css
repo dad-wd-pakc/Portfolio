@@ -116,7 +116,7 @@ html {
 /* line 13, ../sass/screen.scss */
 body {
   background: black url(../images/background-repeat.png) repeat 0 0;
-  background: url(../images/background-robots.png) repeat-y 0 0, url(../images/background-type.png) repeat-x 0 0, url(../images/background-tinie.png) repeat-x 0 0, url(../images/background-yasmin.png) repeat 0 0, url(../images/background-repeat.png) repeat 0 0, black;
+  background: url(../images/background-type.png) repeat-x 0 0, url(../images/background-tinie.png) repeat-x 0 0, url(../images/background-yasmin.png) repeat 0 0, url(../images/background-repeat.png) repeat 0 0, black;
   color: white;
   font: normal 62.5%/1.5em "Quicksand", Gil Sans, arial, helvetica, sans-serif;
   text-align: center;
@@ -241,11 +241,16 @@ p a:active {
 }
 
 /* line 64, ../sass/screen.scss */
-.pie-clearfix, .projects, .content-container {
+img {
+  max-width: 100%;
+}
+
+/* line 68, ../sass/screen.scss */
+.pie-clearfix, .projects, .content-container, .content-primary > article {
   *zoom: 1;
 }
 /* line 22, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.pie-clearfix:after, .projects:after, .content-container:after {
+.pie-clearfix:after, .projects:after, .content-container:after, .content-primary > article:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -254,55 +259,55 @@ p a:active {
   visibility: hidden;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #mainContainer {
   margin: 36px auto;
   text-align: left;
   width: 90%;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #mainContainerInner {
   margin: 0 auto;
   padding: 2% 0;
   width: 93.75%;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 #mainHeader h1 {
   font-size: 2.4em;
   line-height: 1.25em;
   text-transform: uppercase;
 }
-/* line 86, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 #mainHeader h1 a {
   font-weight: bold;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .projects {
   background: rgba(59, 2, 31, 0.5);
   margin-bottom: 2em;
 }
-/* line 101, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .projects header {
   margin-bottom: 1.5em;
 }
-/* line 104, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .projects h1 {
   font-size: 2em;
 }
-/* line 108, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .projects h2 {
   font-size: 1.6em;
 }
-/* line 112, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .projects li {
   position: relative;
   width: 48.889%;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .number {
   background: rgba(5, 169, 220, 0.75);
   display: block;
@@ -320,7 +325,7 @@ p a:active {
   border-radius: 4px / 4px;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .content-container section > header {
   background: black;
   color: white;
@@ -330,33 +335,45 @@ p a:active {
   text-transform: uppercase;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .content-container {
   background: rgba(255, 255, 255, 0.5);
   color: black;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 .content-primary {
   width: 62.8888889%;
   /* 566px / 900px */
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .content-primary > article {
   margin: 0 auto;
+  padding: 2em 0;
   width: 83.038869%;
   /* 470px / 566px */
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .content-secondary {
   width: 36.7777778%;
   /* 331px / 900px */
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .content-secondary > article {
   margin: 0 auto;
+  padding: 2em 0;
   width: 69.789%;
+}
+
+/* line 171, ../sass/screen.scss */
+.figure {
+  float: right;
+  margin-bottom: 0.5em;
+  margin-left: 2.55532%;
+  /* 12px / 470px */
+  width: 48.7341772%;
+  /* 231px / 470px */
 }
