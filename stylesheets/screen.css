@@ -381,3 +381,14 @@ video {
   width: 48.7341772%;
   /* 231px / 470px */
 }
+
+/* IE6 fixes */
+/* line 187, ../sass/screen.scss */
+.ie6 img,
+.ie6 embed,
+.ie6 object,
+.ie6 video {
+  max-width: 100%;
+}
+
+/* IE7 fixes */

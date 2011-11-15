@@ -179,3 +179,16 @@ margin-bottom:0.5em;
 margin-left:2.55532%; /* 12px / 470px */
 width:48.7341772%; /* 231px / 470px */
 }
+
+/* IE6 fixes */
+.ie6 img,
+.ie6 embed,
+.ie6 object,
+.ie6 video {
+max-width:100%;
+}
+
+/* IE7 fixes */
+.ie7 {
+
+}
