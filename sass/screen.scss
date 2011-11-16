@@ -87,6 +87,13 @@ width:93.75%;
 }
 
 #mainHeader {
+	overflow:hidden;
+	text-align:center;
+	
+	hgroup {
+		margin-bottom:1em;
+	}
+	
 	h1 {
 		font-size:2.4em;
 		line-height:1.25em;
@@ -95,6 +102,12 @@ width:93.75%;
 		a {
 			font-weight:bold;
 		}
+	}
+	
+	img {
+		display:block;
+		margin:0 auto;
+		max-width:none;
 	}
 }
 

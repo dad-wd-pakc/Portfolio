@@ -277,41 +277,56 @@ video {
   width: 93.75%;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
+#mainHeader {
+  overflow: hidden;
+  text-align: center;
+}
+/* line 93, ../sass/screen.scss */
+#mainHeader hgroup {
+  margin-bottom: 1em;
+}
+/* line 97, ../sass/screen.scss */
 #mainHeader h1 {
   font-size: 2.4em;
   line-height: 1.25em;
   text-transform: uppercase;
 }
-/* line 95, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 #mainHeader h1 a {
   font-weight: bold;
 }
+/* line 107, ../sass/screen.scss */
+#mainHeader img {
+  display: block;
+  margin: 0 auto;
+  max-width: none;
+}
 
-/* line 105, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .projects {
   background: rgba(59, 2, 31, 0.5);
   margin-bottom: 2em;
 }
-/* line 110, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .projects header {
   margin-bottom: 1.5em;
 }
-/* line 113, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .projects h1 {
   font-size: 2em;
 }
-/* line 117, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .projects h2 {
   font-size: 1.6em;
 }
-/* line 121, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .projects li {
   position: relative;
   width: 48.889%;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .number {
   background: rgba(5, 169, 220, 0.75);
   display: block;
@@ -329,13 +344,13 @@ video {
   border-radius: 4px / 4px;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .content-container {
   background: rgba(255, 255, 255, 0.5) url(../images/noise-gray-900.gif) repeat-y 63.111% 0;
   color: black;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .content-container section > header {
   background: black;
   color: white;
@@ -345,13 +360,13 @@ video {
   text-transform: uppercase;
 }
 
-/* line 153, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .content-primary {
   width: 62.8888889%;
   /* 566px / 900px */
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .content-primary > article {
   margin: 0 auto;
   padding: 2em 0;
@@ -359,20 +374,20 @@ video {
   /* 470px / 566px */
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .content-secondary {
   width: 36.7777778%;
   /* 331px / 900px */
 }
 
-/* line 170, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .content-secondary > article {
   margin: 0 auto;
   padding: 2em 0;
   width: 69.789%;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .figure {
   float: right;
   margin-bottom: 0.5em;
@@ -383,7 +398,7 @@ video {
 }
 
 /* IE6 fixes */
-/* line 187, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .ie6 img,
 .ie6 embed,
 .ie6 object,
