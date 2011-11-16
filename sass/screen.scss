@@ -136,18 +136,18 @@ width:8%;
 @include border-radius(4px, 4px);
 }
 
+.content-container {
+	@extend .pie-clearfix;
+	background:$content-block-background-color url(../images/noise-gray-900.gif) repeat-y 63.111111% 0;
+	color:$secondary-font-color;
+}
+
 .content-container section > header {
 background:$primary-background-color;
 color:$primary-font-color;
 font-size:1.5em;
 padding:0.8em 2.2222%; /* 20px / 900px */
 text-transform:uppercase;
-}
-
-.content-container {
-	@extend .pie-clearfix;
-	background:$content-block-background-color;
-	color:$secondary-font-color;
 }
 
 .content-primary {
@@ -185,7 +185,7 @@ width:48.7341772%; /* 231px / 470px */
 .ie6 embed,
 .ie6 object,
 .ie6 video {
-max-width:100%;
+width:100%;
 }
 
 /* IE7 fixes */

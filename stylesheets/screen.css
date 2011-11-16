@@ -330,6 +330,12 @@ video {
 }
 
 /* line 139, ../sass/screen.scss */
+.content-container {
+  background: rgba(255, 255, 255, 0.5) url(../images/noise-gray-900.gif) repeat-y 63.111% 0;
+  color: black;
+}
+
+/* line 145, ../sass/screen.scss */
 .content-container section > header {
   background: black;
   color: white;
@@ -337,12 +343,6 @@ video {
   padding: 0.8em 2.2222%;
   /* 20px / 900px */
   text-transform: uppercase;
-}
-
-/* line 147, ../sass/screen.scss */
-.content-container {
-  background: rgba(255, 255, 255, 0.5);
-  color: black;
 }
 
 /* line 153, ../sass/screen.scss */
@@ -388,7 +388,7 @@ video {
 .ie6 embed,
 .ie6 object,
 .ie6 video {
-  max-width: 100%;
+  width: 100%;
 }
 
 /* IE7 fixes */
