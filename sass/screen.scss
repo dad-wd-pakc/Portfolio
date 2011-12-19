@@ -24,6 +24,12 @@ font:normal 62.5%/1.5em 'Quicksand', Gil Sans, arial, helvetica, sans-serif;
 text-align:center;
 }
 
+@media screen and (min-width: 1024px) and (orientation:landscape) {
+	body{
+		background:url(../images/background-yasmin.png) no-repeat 50% 0;
+	}
+}
+
 h1 { font-size: 2.4em; }
 h2 { font-size: 2em; }
 h3 { font-size: 1.8em; }
@@ -41,7 +47,7 @@ font-weight: normal;
 h1, h2, h3, h4, h5, h6, blockquote, p, input, small, li { line-height: 1.5em; }
 
 a {
-	@include link-colors(silver, gold, yellow, gray, teal);
+	@include link-colors(yellow, maroon, purple, gold, orange);
 }
 
 p {
@@ -49,6 +55,10 @@ p {
 	a {
 		@include link-colors(yellow, turqoise, purple, orange, pink);
 	}
+}
+
+p:last-child {
+margin-bottom:0;
 }
 
 .left {
@@ -60,7 +70,6 @@ float:left;
 display:inline;
 float:right;
 }
-
 
 /* Scalable media */
 img,
@@ -87,6 +96,8 @@ width:93.75%;
 }
 
 #mainHeader {
+	background:$content-block-background-color;
+	margin-bottom:2em;
 	overflow:hidden;
 	text-align:center;
 	
@@ -95,7 +106,7 @@ width:93.75%;
 	}
 	
 	h1 {
-		font-size:2.4em;
+		font-size:8em;
 		line-height:1.25em;
 		text-transform:uppercase;
 		
@@ -104,15 +115,53 @@ width:93.75%;
 		}
 	}
 	
-	img {
-		display:block;
-		margin:0 auto;
-		max-width:none;
+	h2 {
+		font-size:4em;
+	}
+	
+	.slides {
+		.hero b {
+			display:block;
+			overflow:hidden;
+			margin-bottom:0;
+			
+			img {
+				display:block;
+				margin:0 auto;
+				max-width:inherit;
+			}
+		}
+		
+		@media screen and (max-width: 768px) {
+			.hero b {
+				width:auto;
+				
+				img {
+					max-width:100%;
+				}
+			}
+		}
+		
+		.hero .caption {
+			color:$secondary-font-color;
+			font-size:2em;
+		}
+	}
+	
+	@media screen and (max-width: 768px) {
+		h1 {
+			font-size:4em;
+		}
+		
+		h2 {
+			font-size:2em;
+		}
 	}
 }
 
-#mainContent {
-
+#mainContent > header {
+	background:$secondary-background-color;
+	margin-bottom:2em;
 }
 
 .projects {
@@ -134,6 +183,13 @@ width:93.75%;
 	li {
 		position:relative;
 		width:48.889%;
+	}
+	
+	@media screen and (max-width: 768px) {
+		li {
+			margin:0 0 30px 0;
+			width:auto;
+		}
 	}
 }
 
@@ -191,6 +247,23 @@ float:right;
 margin-bottom:0.5em;
 margin-left:2.55532%; /* 12px / 470px */
 width:48.7341772%; /* 231px / 470px */
+}
+
+@media screen and (max-width: 768px) {
+	#mainContainer {
+		margin:10px;
+		width:auto;
+	}
+
+	.content-primary,
+	.content-primary > article,
+	.content-secondary,
+	.content-secondary > article,
+	.figure {
+		float:none;
+		margin:0 0 30px 0;
+		width:auto;
+	}
 }
 
 /* IE6 fixes */

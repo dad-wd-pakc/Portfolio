@@ -9,13 +9,17 @@
     <meta charset="utf-8">
     <meta name="description" content="It's all about the responsive web...">
     <meta name="author" content="Pak-Loon Cheng">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+
     <title>CANVAS HTML5 CSS3 RESPONSIVE WEB!!!!!!!!!</title>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet'>
+    <link href="http://fonts.googleapis.com/css?family=Quicksand:400,700,300" rel="stylesheet">
     <link href="stylesheets/screen.css?v=1.0" rel="stylesheet" media="screen, projection">
+    <!--<link href="stylesheets/wide.css?v=1.0" rel="stylesheet" media="screen and (min-width:1024px)">-->
     <link href="stylesheets/print.css?v=1.0" media="print">
+    <script src="js/respond.min.js"></script>
 </head>
 <body>
 <div id="mainContainer">
@@ -27,8 +31,27 @@
                         <h1>The five boxing <a href="http://en.wikipedia.org/wiki/Wizard">wizards</a> jump quickly</h1>
                         <h2>pack my box with five dozen liquor jugs</h2>
                     </hgroup>
-                    <img src="images/beatbox-heroes.jpg" alt="" title="" />
                 </header>
+                <nav>
+                    <ul>
+                        <li><a href="#">The Blog</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </nav>
+                <div class="hero-slider">
+                    <div class="slides">
+                        <div class="hero">
+                            <b><img src="images/beatbox-heroes.jpg" alt="" title="" /></b>
+                            <div class="caption">Cupcake ipsum dolor sit amet dessert candy canes chupa chups. Marzipan chocolate bar muffin. Candy canes jujubes donut carrot cake croissant. Carrot cake tiramisu jelly beans jelly danish donut.</div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="slide-buttons">
+                    <li><a class="prev" href="#">Previous</a></li>
+                    <li><a class="next" href="#">Next</a></li>
+                </ul>
             </div>
             <div id="mainContent">
                 <header>

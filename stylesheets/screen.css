@@ -122,92 +122,98 @@ body {
   text-align: center;
 }
 
-/* line 27, ../sass/screen.scss */
+@media screen and (min-width: 1024px) and (orientation:landscape) {
+  /* line 28, ../sass/screen.scss */
+  body {
+    background: url(../images/background-yasmin.png) no-repeat 50% 0;
+  }
+}
+/* line 33, ../sass/screen.scss */
 h1 {
   font-size: 2.4em;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 h2 {
   font-size: 2em;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 h3 {
   font-size: 1.8em;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 h4 {
   font-size: 1.6em;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 h5 {
   font-size: 1.4em;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 h6 {
   font-size: 1.2em;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 blockquote {
   font-size: 1.2em;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 p, li {
   font-size: 1.2em;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 input {
   font-size: 1.2em;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 small, li p {
   font-size: 1em;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6, blockquote, p, input, small, li {
   line-height: 1.5em;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 a {
-  color: silver;
+  color: yellow;
 }
 /* line 18, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:visited {
-  color: gray;
+  color: gold;
 }
 /* line 21, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:focus {
-  color: teal;
+  color: orange;
 }
 /* line 24, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
-  color: gold;
+  color: maroon;
 }
 /* line 27, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:active {
-  color: yellow;
+  color: purple;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 p {
   margin-bottom: 1.25em;
 }
-/* line 49, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 p a {
   color: yellow;
 }
@@ -228,20 +234,25 @@ p a:active {
   color: purple;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 64, ../sass/screen.scss */
 .left, .content-primary {
   display: inline;
   float: left;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .right, .content-secondary {
   display: inline;
   float: right;
 }
 
 /* Scalable media */
-/* line 69, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 img,
 embed,
 object,
@@ -249,7 +260,7 @@ video {
   max-width: 100%;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .pie-clearfix, .projects, .content-container, .content-primary > article {
   *zoom: 1;
 }
@@ -263,70 +274,120 @@ video {
   visibility: hidden;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 #mainContainer {
   margin: 36px auto;
   text-align: left;
   width: 90%;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #mainContainerInner {
   margin: 0 auto;
   padding: 2% 0;
   width: 93.75%;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 #mainHeader {
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 2em;
   overflow: hidden;
   text-align: center;
 }
-/* line 93, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 #mainHeader hgroup {
   margin-bottom: 1em;
 }
-/* line 97, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 #mainHeader h1 {
-  font-size: 2.4em;
+  font-size: 8em;
   line-height: 1.25em;
   text-transform: uppercase;
 }
-/* line 102, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 #mainHeader h1 a {
   font-weight: bold;
 }
-/* line 107, ../sass/screen.scss */
-#mainHeader img {
+/* line 118, ../sass/screen.scss */
+#mainHeader h2 {
+  font-size: 4em;
+}
+/* line 123, ../sass/screen.scss */
+#mainHeader .slides .hero b {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+/* line 128, ../sass/screen.scss */
+#mainHeader .slides .hero b img {
   display: block;
   margin: 0 auto;
-  max-width: none;
+  max-width: inherit;
+}
+@media screen and (max-width: 768px) {
+  /* line 136, ../sass/screen.scss */
+  #mainHeader .slides .hero b {
+    width: auto;
+  }
+  /* line 139, ../sass/screen.scss */
+  #mainHeader .slides .hero b img {
+    max-width: 100%;
+  }
+}
+/* line 145, ../sass/screen.scss */
+#mainHeader .slides .hero .caption {
+  color: black;
+  font-size: 2em;
+}
+@media screen and (max-width: 768px) {
+  /* line 152, ../sass/screen.scss */
+  #mainHeader h1 {
+    font-size: 4em;
+  }
+  /* line 156, ../sass/screen.scss */
+  #mainHeader h2 {
+    font-size: 2em;
+  }
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
+#mainContent > header {
+  background: rgba(59, 2, 31, 0.5);
+  margin-bottom: 2em;
+}
+
+/* line 167, ../sass/screen.scss */
 .projects {
   background: rgba(59, 2, 31, 0.5);
   margin-bottom: 2em;
 }
-/* line 123, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .projects header {
   margin-bottom: 1.5em;
 }
-/* line 126, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .projects h1 {
   font-size: 2em;
 }
-/* line 130, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .projects h2 {
   font-size: 1.6em;
 }
-/* line 134, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .projects li {
   position: relative;
   width: 48.889%;
 }
+@media screen and (max-width: 768px) {
+  /* line 189, ../sass/screen.scss */
+  .projects li {
+    margin: 0 0 30px 0;
+    width: auto;
+  }
+}
 
-/* line 140, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .number {
   background: rgba(5, 169, 220, 0.75);
   display: block;
@@ -344,13 +405,13 @@ video {
   border-radius: 4px / 4px;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .content-container {
   background: rgba(255, 255, 255, 0.5) url(../images/noise-gray-900.gif) repeat-y 63.111% 0;
   color: black;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .content-container section > header {
   background: black;
   color: white;
@@ -360,13 +421,13 @@ video {
   text-transform: uppercase;
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .content-primary {
   width: 62.8888889%;
   /* 566px / 900px */
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 .content-primary > article {
   margin: 0 auto;
   padding: 2em 0;
@@ -374,20 +435,20 @@ video {
   /* 470px / 566px */
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 .content-secondary {
   width: 36.7777778%;
   /* 331px / 900px */
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .content-secondary > article {
   margin: 0 auto;
   padding: 2em 0;
   width: 69.789%;
 }
 
-/* line 189, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .figure {
   float: right;
   margin-bottom: 0.5em;
@@ -397,8 +458,26 @@ video {
   /* 231px / 470px */
 }
 
+@media screen and (max-width: 768px) {
+  /* line 253, ../sass/screen.scss */
+  #mainContainer {
+    margin: 10px;
+    width: auto;
+  }
+
+  /* line 262, ../sass/screen.scss */
+  .content-primary,
+  .content-primary > article,
+  .content-secondary,
+  .content-secondary > article,
+  .figure {
+    float: none;
+    margin: 0 0 30px 0;
+    width: auto;
+  }
+}
 /* IE6 fixes */
-/* line 200, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .ie6 img,
 .ie6 embed,
 .ie6 object,
