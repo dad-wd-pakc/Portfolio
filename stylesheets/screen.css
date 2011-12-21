@@ -476,8 +476,45 @@ video {
     width: auto;
   }
 }
+/* General Classes */
+/* line 270, ../sass/screen.scss */
+.film {
+  /* @include background-image(linear-gradient(white, #aaaaaa)); */
+  border-bottom: 2px solid black;
+  margin-bottom: 5em;
+  padding-bottom: 3em;
+}
+
+/* line 277, ../sass/screen.scss */
+.film-title {
+  margin-bottom: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 283, ../sass/screen.scss */
+.caption {
+  color: black;
+  text-transform: uppercase;
+}
+
+/* line 288, ../sass/screen.scss */
+.stars {
+  color: red;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 295, ../sass/screen.scss */
+.reviewer {
+  display: block;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
 /* IE6 fixes */
-/* line 273, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .ie6 img,
 .ie6 embed,
 .ie6 object,

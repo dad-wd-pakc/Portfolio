@@ -266,6 +266,40 @@ width:48.7341772%; /* 231px / 470px */
 	}
 }
 
+/* General Classes */
+.film {
+/* @include background-image(linear-gradient(white, #aaaaaa)); */
+border-bottom:2px solid black;
+margin-bottom:5em;
+padding-bottom:3em;
+}
+
+.film-title {
+margin-bottom:2em;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+.caption {
+color:black;
+text-transform:uppercase;
+}
+
+.stars {
+color:red;
+display:block;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+.reviewer {
+display:block;
+font-style:italic;
+margin-bottom:2em;
+}
+
+
+
 /* IE6 fixes */
 .ie6 img,
 .ie6 embed,
