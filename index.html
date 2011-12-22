@@ -10,7 +10,6 @@
     <meta name="description" content="It's all about the responsive web...">
     <meta name="author" content="Pak-Loon Cheng">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-
     <title>CANVAS HTML5 CSS3 RESPONSIVE WEB!!!!!!!!!</title>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,27 +25,33 @@
     <div id="mainContainerInner">
         <section>
             <div id="mainHeader">
-                <header>
-                    <hgroup>
-                        <h1>The five boxing <a href="http://en.wikipedia.org/wiki/Wizard">wizards</a> jump quickly</h1>
-                        <h2>pack my box with five dozen liquor jugs</h2>
-                    </hgroup>
-                </header>
-                <nav>
-                    <ul>
-                        <li><a href="#">The Blog</a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </nav>
+                <div class="group-overflow">
+                    <header>
+                        <hgroup>
+                            <h1>The five boxing <a href="http://en.wikipedia.org/wiki/Wizard">wizards</a> jump quickly</h1>
+                            <h2>Pack my box with five dozen liquor jugs</h2>
+                        </hgroup>
+                    </header>
+                    <a href="#" class="logo"><img src="http://placehold.it/350x150" alt="" /></a>
+                    <nav>
+                        <ul class="nav" id="primaryNav">
+                            <li id="navHome"><a href="#">Home</a></li>
+                            <li id="navBlog"><a href="#">Blog</a></li>
+                            <li id="navAboutUs"><a href="#">About Us</a></li>
+                            <li id="navContactUs"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="group-overflow" id="mainSlider">
                 <div class="hero-slider">
-                    <div class="slides">
-                        <div class="hero">
-                            <b><img src="images/beatbox-heroes.jpg" alt="" title="" /></b>
-                            <div class="caption">Cupcake ipsum dolor sit amet dessert candy canes chupa chups. Marzipan chocolate bar muffin. Candy canes jujubes donut carrot cake croissant. Carrot cake tiramisu jelly beans jelly danish donut.</div>
-                        </div>
-                    </div>
+                    <ul class="slides">
+                        <!--Placeholder one!-->
+                        <li class="hero">
+                            <b><img src="images/hero.jpg" alt="" title="" /></b>
+                            <p class="caption">Cupcake ipsum dolor sit amet dessert candy canes chupa chups. Marzipan chocolate bar muffin. Candy canes jujubes donut carrot cake croissant. Carrot cake tiramisu jelly beans jelly danish donut.</p>
+                        </li>
+                    </ul>
                 </div>
                 <ul class="slide-buttons">
                     <li><a class="prev" href="#">Previous</a></li>
