@@ -65,6 +65,16 @@ var initialiseProjects = function () {
     //})();
 
     var i, j, k;
+
+    // The carousel navigation
+    var slideButtons = [
+	    "<ul class='slide-buttons'>",
+		    "<li><a class='prev' href='#'>Previous</a></li>",
+		    "<li><a class='next' href='#'>Next</a></li>",
+	    "</ul>"
+    ].join("");
+
+
     $.getJSON("js/content.js", function (data) {
         $.each(data.banners, function () {
             var theText = this.text;
@@ -91,11 +101,41 @@ var initialiseProjects = function () {
     })
 	.success(function () {
 	    // console.log("Success");
-    })
+
+	    $(".slides").addClass("slider");
+
+	    $("#mainSlider .hero-slider")
+        .wrapInner("<div class='slidewrap'></div>")
+	    //.find(".slidewrap")
+	    //.append(slideButtons)
+        .carousel({
+            slide: ".hero"
+        });
+
+	    $(".slidecontrols > li").each(function (i, value) {
+	        var navIndex = i;
+	        var currentNav = $(this);
+
+	        switch (navIndex) {
+	            case 0:
+	                currentNav
+                    .addClass("next-nav")
+                    .find("a")
+                    .html("&gt;");
+	            break;
+	            case 1:
+	                currentNav
+                    .addClass("previous-nav")
+                    .find("a")
+                    .html("&lt;");
+	                break;
+	            }
+	    });
+	})
 	.error(function () {
 	    // console.log("Error");
-    })
+	})
 	.complete(function () {
 	    // console.log("Complete");
-    });
+	});
 };

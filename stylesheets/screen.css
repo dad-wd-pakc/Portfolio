@@ -245,8 +245,15 @@ p:last-child {
   float: right;
 }
 
+/* line 71, ../sass/screen.scss */
+.replace {
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
 /* Scalable media */
-/* line 75, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 img,
 embed,
 object,
@@ -254,13 +261,13 @@ video {
   max-width: 100%;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .group {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .group-overflow, .projects, .content-container, .content-primary > article {
   *zoom: 1;
 }
@@ -274,55 +281,55 @@ video {
   visibility: hidden;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 #mainContainer {
   margin: 36px auto;
   text-align: left;
   width: 90%;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 #mainContainerInner {
   margin: 0 auto;
   padding: 2% 0;
   width: 93.75%;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 #mainHeader {
   background: rgba(255, 255, 255, 0.5);
   margin-bottom: 2em;
 }
-/* line 103, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 #mainHeader .logo {
-  -moz-box-shadow: #dd070c -1px -1px 0, #dd070c -2px -2px 0, #dd070c -3px -3px 0, #dd070c -4px -4px 0, #dd070c -5px -5px 0, #dd070c -6px -6px 0, #dd070c -7px -7px 0, #dd070c -8px -8px 0, #dd070c -9px -9px 0, #dd070c -10px -10px 0;
-  -webkit-box-shadow: #dd070c -1px -1px 0, #dd070c -2px -2px 0, #dd070c -3px -3px 0, #dd070c -4px -4px 0, #dd070c -5px -5px 0, #dd070c -6px -6px 0, #dd070c -7px -7px 0, #dd070c -8px -8px 0, #dd070c -9px -9px 0, #dd070c -10px -10px 0;
-  -o-box-shadow: #dd070c -1px -1px 0, #dd070c -2px -2px 0, #dd070c -3px -3px 0, #dd070c -4px -4px 0, #dd070c -5px -5px 0, #dd070c -6px -6px 0, #dd070c -7px -7px 0, #dd070c -8px -8px 0, #dd070c -9px -9px 0, #dd070c -10px -10px 0;
-  box-shadow: #dd070c -1px -1px 0, #dd070c -2px -2px 0, #dd070c -3px -3px 0, #dd070c -4px -4px 0, #dd070c -5px -5px 0, #dd070c -6px -6px 0, #dd070c -7px -7px 0, #dd070c -8px -8px 0, #dd070c -9px -9px 0, #dd070c -10px -10px 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
-  opacity: 0.75;
+  -moz-box-shadow: white -1px 1px 0, white -2px 2px 0, white -3px 3px 0, white -4px 4px 0, white -5px 5px 0, white -6px 6px 0, white -7px 7px 0, white -8px 8px 0, white -9px 9px 0, white -10px 10px 0;
+  -webkit-box-shadow: white -1px 1px 0, white -2px 2px 0, white -3px 3px 0, white -4px 4px 0, white -5px 5px 0, white -6px 6px 0, white -7px 7px 0, white -8px 8px 0, white -9px 9px 0, white -10px 10px 0;
+  -o-box-shadow: white -1px 1px 0, white -2px 2px 0, white -3px 3px 0, white -4px 4px 0, white -5px 5px 0, white -6px 6px 0, white -7px 7px 0, white -8px 8px 0, white -9px 9px 0, white -10px 10px 0;
+  box-shadow: white -1px 1px 0, white -2px 2px 0, white -3px 3px 0, white -4px 4px 0, white -5px 5px 0, white -6px 6px 0, white -7px 7px 0, white -8px 8px 0, white -9px 9px 0, white -10px 10px 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
   background: #cccccc;
   text-align: center;
   width: 36.45833%;
   /* 350px / 960px */
 }
-/* line 122, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #mainHeader #primaryNav {
-  -moz-box-shadow: #dd070c 1px -1px 0, #dd070c 2px -2px 0, #dd070c 3px -3px 0, #dd070c 4px -4px 0, #dd070c 5px -5px 0, #dd070c 6px -6px 0, #dd070c 7px -7px 0, #dd070c 8px -8px 0, #dd070c 9px -9px 0, #dd070c 10px -10px 0;
-  -webkit-box-shadow: #dd070c 1px -1px 0, #dd070c 2px -2px 0, #dd070c 3px -3px 0, #dd070c 4px -4px 0, #dd070c 5px -5px 0, #dd070c 6px -6px 0, #dd070c 7px -7px 0, #dd070c 8px -8px 0, #dd070c 9px -9px 0, #dd070c 10px -10px 0;
-  -o-box-shadow: #dd070c 1px -1px 0, #dd070c 2px -2px 0, #dd070c 3px -3px 0, #dd070c 4px -4px 0, #dd070c 5px -5px 0, #dd070c 6px -6px 0, #dd070c 7px -7px 0, #dd070c 8px -8px 0, #dd070c 9px -9px 0, #dd070c 10px -10px 0;
-  box-shadow: #dd070c 1px -1px 0, #dd070c 2px -2px 0, #dd070c 3px -3px 0, #dd070c 4px -4px 0, #dd070c 5px -5px 0, #dd070c 6px -6px 0, #dd070c 7px -7px 0, #dd070c 8px -8px 0, #dd070c 9px -9px 0, #dd070c 10px -10px 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
-  opacity: 0.85;
+  -moz-box-shadow: white 1px -1px 0, white 2px -2px 0, white 3px -3px 0, white 4px -4px 0, white 5px -5px 0, white 6px -6px 0, white 7px -7px 0, white 8px -8px 0, white 9px -9px 0, white 10px -10px 0;
+  -webkit-box-shadow: white 1px -1px 0, white 2px -2px 0, white 3px -3px 0, white 4px -4px 0, white 5px -5px 0, white 6px -6px 0, white 7px -7px 0, white 8px -8px 0, white 9px -9px 0, white 10px -10px 0;
+  -o-box-shadow: white 1px -1px 0, white 2px -2px 0, white 3px -3px 0, white 4px -4px 0, white 5px -5px 0, white 6px -6px 0, white 7px -7px 0, white 8px -8px 0, white 9px -9px 0, white 10px -10px 0;
+  box-shadow: white 1px -1px 0, white 2px -2px 0, white 3px -3px 0, white 4px -4px 0, white 5px -5px 0, white 6px -6px 0, white 7px -7px 0, white 8px -8px 0, white 9px -9px 0, white 10px -10px 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
   background: black;
   margin-top: 40px;
   width: 63.5416667%;
 }
-/* line 140, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #mainHeader #primaryNav li {
   padding: 1em;
 }
-/* line 143, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #mainHeader #primaryNav li a {
   font-size: 1.4em;
   font-weight: bold;
@@ -330,14 +337,14 @@ video {
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
-  /* line 153, ../sass/screen.scss */
+  /* line 159, ../sass/screen.scss */
   #mainHeader .logo {
     display: block;
     float: none;
     margin: 0 0 20px 0;
     position: relative;
   }
-  /* line 160, ../sass/screen.scss */
+  /* line 166, ../sass/screen.scss */
   #mainHeader #primaryNav {
     display: block;
     float: none;
@@ -346,7 +353,7 @@ video {
     text-align: center;
     width: 100%;
   }
-  /* line 168, ../sass/screen.scss */
+  /* line 174, ../sass/screen.scss */
   #mainHeader #primaryNav li {
     display: -moz-inline-box;
     -moz-box-orient: vertical;
@@ -361,142 +368,185 @@ video {
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 177, ../sass/screen.scss */
+  /* line 183, ../sass/screen.scss */
   #mainHeader #primaryNav li {
     clear: left;
     float: left;
     width: 40%;
   }
-  /* line 184, ../sass/screen.scss */
+  /* line 190, ../sass/screen.scss */
   #mainHeader #primaryNav li#navBlog,
   #mainHeader #primaryNav li#navContactUs {
     clear: right;
     float: right;
   }
 }
-/* line 191, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 #mainHeader hgroup {
-  background: rgba(0, 0, 0, 0.85);
+  background: black;
   color: white;
   font-family: georgia, "lucida Grande", "Times New Roman", serif;
   margin-bottom: 2em;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
   padding: 3em;
   text-align: center;
 }
-/* line 200, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 #mainHeader h1 {
   font-size: 4em;
   font-weight: 900;
   line-height: 1.25em;
   text-transform: uppercase;
 }
-/* line 207, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 #mainHeader h2 {
   font-size: 2em;
 }
 @media screen and (max-width: 768px) {
-  /* line 212, ../sass/screen.scss */
+  /* line 219, ../sass/screen.scss */
   #mainHeader h1 {
     font-size: 3em;
   }
-  /* line 216, ../sass/screen.scss */
+  /* line 223, ../sass/screen.scss */
   #mainHeader h2 {
     font-size: 1.5em;
   }
 }
 
-/* line 222, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 #mainSlider {
-  background: rgba(255, 255, 255, 0.5);
   margin-bottom: 2em;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .hero-slider {
   clear: both;
+  position: relative;
+}
+/* line 237, ../sass/screen.scss */
+.hero-slider .slidecontrols {
+  position: relative;
+}
+/* line 239, ../sass/screen.scss */
+.hero-slider .slidecontrols li {
+  -webkit-border-radius: 15% 15%;
+  -moz-border-radius: 15% / 15%;
+  -o-border-radius: 15% / 15%;
+  -ms-border-radius: 15% / 15%;
+  -khtml-border-radius: 15% / 15%;
+  border-radius: 15% / 15%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+  opacity: 0.75;
+  background: rgba(5, 169, 220, 0.75);
+  font-size: 2em;
+  left: 0%;
+  position: absolute;
+}
+/* line 247, ../sass/screen.scss */
+.hero-slider .slidecontrols li a {
+  color: #000000;
+  display: block;
+  font-weight: 900;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 256, ../sass/screen.scss */
+.hero-slider .slidecontrols li a:hover {
+  color: #ffd300;
+}
+/* line 261, ../sass/screen.scss */
+.hero-slider .slidecontrols li.previous-nav {
+  top: 20%;
+}
+/* line 265, ../sass/screen.scss */
+.hero-slider .slidecontrols li.next-nav {
+  top: 44%;
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .slides .hero b {
   display: block;
   overflow: hidden;
   margin-bottom: 0;
 }
-/* line 237, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .slides .hero b img {
   display: block;
-  margin: 0 auto;
+  margin: 0 0 0.5em 3em;
   max-width: inherit;
 }
 @media screen and (max-width: 768px) {
-  /* line 245, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   .slides .hero b {
     width: auto;
   }
-  /* line 248, ../sass/screen.scss */
+  /* line 292, ../sass/screen.scss */
   .slides .hero b img {
     max-width: 100%;
   }
 }
-/* line 254, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .slides .hero .caption {
   font-size: 1.1em;
   text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 262, ../sass/screen.scss */
+  /* line 306, ../sass/screen.scss */
   #mainSlider,
   #mainContent {
     width: 49.375%;
   }
 
-  /* line 266, ../sass/screen.scss */
+  /* line 310, ../sass/screen.scss */
   #mainSlider {
     float: right;
   }
 
-  /* line 270, ../sass/screen.scss */
+  /* line 314, ../sass/screen.scss */
   #mainContent {
     float: left;
   }
 }
-/* line 275, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 #mainContent {
   background: rgba(255, 255, 255, 0.5);
   margin-bottom: 2em;
 }
 
-/* line 280, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 #mainContent > header {
-  margin-bottom: 2em;
+  margin: 0 2em 2em 2em;
+  padding: 2em 0 0 0;
 }
 
-/* line 284, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 .projects {
   background: content-block-background-color;
   margin: 0 auto 2em auto;
   width: 91.6667%;
 }
-/* line 290, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .projects header {
   margin-bottom: 1.5em;
 }
-/* line 293, ../sass/screen.scss */
+/* line 338, ../sass/screen.scss */
 .projects h1 {
   font-size: 2em;
 }
-/* line 297, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .projects h2 {
   font-size: 1.6em;
 }
-/* line 301, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 .projects li {
   position: relative;
   width: 47.7272727%;
 }
 @media screen and (max-width: 768px) {
-  /* line 307, ../sass/screen.scss */
+  /* line 352, ../sass/screen.scss */
   .projects li {
     float: none;
     margin: 0 0 30px 0;
@@ -504,7 +554,7 @@ video {
   }
 }
 
-/* line 315, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
 .number {
   background: rgba(5, 169, 220, 0.75);
   display: block;
@@ -523,13 +573,13 @@ video {
   border-radius: 4px / 4px;
 }
 
-/* line 328, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 .content-container {
   background: rgba(255, 255, 255, 0.5) url(../images/noise-gray-900.gif) repeat-y 63.111% 0;
   color: white;
 }
 
-/* line 334, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 .content-container section > header {
   background: black;
   color: white;
@@ -539,14 +589,14 @@ video {
   text-transform: uppercase;
 }
 
-/* line 342, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 .content-primary {
   color: black;
   width: 62.8888889%;
   /* 566px / 900px */
 }
 
-/* line 348, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .content-primary > article {
   margin: 0 auto;
   padding: 2em 0;
@@ -554,21 +604,21 @@ video {
   /* 470px / 566px */
 }
 
-/* line 355, ../sass/screen.scss */
+/* line 400, ../sass/screen.scss */
 .content-secondary {
   color: black;
   width: 36.7777778%;
   /* 331px / 900px */
 }
 
-/* line 361, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 .content-secondary > article {
   margin: 0 auto;
   padding: 2em 0;
   width: 69.789%;
 }
 
-/* line 367, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 .figure {
   float: right;
   margin-bottom: 0.5em;
@@ -579,13 +629,13 @@ video {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 375, ../sass/screen.scss */
+  /* line 420, ../sass/screen.scss */
   #mainContainer {
     margin: 10px;
     width: auto;
   }
 
-  /* line 384, ../sass/screen.scss */
+  /* line 429, ../sass/screen.scss */
   .content-primary,
   .content-primary > article,
   .content-secondary,
@@ -596,13 +646,20 @@ video {
     width: auto;
   }
 
-  /* line 390, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
+  .content-primary > article,
+  .content-secondary > article {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  /* line 441, ../sass/screen.scss */
   .content-container {
     background-image: none;
   }
 }
 /* General Classes */
-/* line 396, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 .film {
   /* @include background-image(linear-gradient(white, #aaaaaa)); */
   border-bottom: 2px solid black;
@@ -610,20 +667,20 @@ video {
   padding-bottom: 3em;
 }
 
-/* line 403, ../sass/screen.scss */
+/* line 454, ../sass/screen.scss */
 .film-title {
   margin-bottom: 2em;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 409, ../sass/screen.scss */
+/* line 460, ../sass/screen.scss */
 .caption {
   color: black;
   text-transform: uppercase;
 }
 
-/* line 414, ../sass/screen.scss */
+/* line 465, ../sass/screen.scss */
 .stars {
   color: red;
   display: block;
@@ -631,7 +688,7 @@ video {
   text-transform: uppercase;
 }
 
-/* line 421, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 .reviewer {
   display: block;
   font-style: italic;
@@ -639,7 +696,7 @@ video {
 }
 
 /* IE6 fixes */
-/* line 433, ../sass/screen.scss */
+/* line 484, ../sass/screen.scss */
 .ie6 img,
 .ie6 embed,
 .ie6 object,
